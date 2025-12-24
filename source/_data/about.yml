@@ -1,13 +1,13 @@
 # 悬浮标签模块
 authorinfo:
   leftTags:
-    - 🤖️ 数码科技爱好者
-    - 🔍 分享与热心帮助
-    - 🏠 智能家居小能手
+    - 📚 未写之书的执笔人
+    - 🪞 自我镜像的对话者
+    - 🌠 星尘记忆的收藏家
   rightTags:
-    - 脚踏实地行动派 🏃
-    - 团队小组发动机 🧱
-    - 壮汉人狠话不多 💢
+    - 🕯️ 暗夜微光的点灯人
+    - 🌀 混沌秩序的调和者
+    - 🌱 心灵荒原的播种者
   image: https://pic-bed.dearheaven.cn/img/avator.webp
 
 # 标题
@@ -18,14 +18,15 @@ title: 关于本站
 contentinfo: # 顶部个人信息展示
   sup: 你好，很高兴认识你👋
   name: 我是Heaven # 名称
-  title: 是一名学生 # 介绍
+  title: 是一名计算机爱好者，学生 # 介绍
   tip: 追求
-  slogan: 源于<br>热爱而去创造
+  slogan: 倾听<br>无声的需求
   mask:
-    - 优秀的产品
-    - 出色的设计
-    - 高效的编程
-    - 人性化的用户体验
+    - 直觉驱动的设计
+    - 无缝衔接的流程
+    - 深度思考的架构
+    - 悄然发生的美好
+
 
 # 技能图标轮播块
 # 此模块和生涯模块在一行，如不写则生涯模块单独占满一行。
@@ -36,7 +37,7 @@ skills: # 根据需求添加
   tags:
     - title: Java
       color: "#fff"
-      icon: fab fa-java
+      img: https://bu.dusays.com/2023/04/09/643293b1184e9.jpg
     - title: Docker
       color: "#57b6e6"
       icon: fab fa-docker
@@ -70,7 +71,7 @@ careers:
     - school: JUFE
       major: 网络空间安全
       color: "#357ef5"
-  image: https://cdn.lightxi.com/cloudreve/uploads/2025/07/31/y5BrUhFv_67a216483c354.webp
+  image: /img/1766561170.webp
 
 # 性格模块
 personalities:
@@ -83,7 +84,7 @@ personalities:
   linkText: 16personalities
   typeLink: https://www.16personalities.com/ch/esfj-人格
   typeName: 主人公
-  myphoto: https://blog.xiowo.net/img/avatar.png
+  myphoto: /img/风景.webp
 
 # 座右铭
 motto:
@@ -92,12 +93,12 @@ motto:
   content: 行则将至。
 
 # 特长模块
-expertise:
-  title: 特长
-  prefix: 数学、物理、化学
-  specialist: 专家
-  content: 学习能力
-  level: MAX
+# expertise:
+#   title: 特长
+#   prefix: 数学、物理、化学
+#   specialist: 专家
+#   content: 学习能力
+#   level: MAX
 
 # 游戏模块
 # 这个模块可以写多个，但最好不要超过 4 个。
@@ -175,16 +176,23 @@ oneself: # 按需填写
     dark: https://pic1.imgdb.cn/item/683f1db158cb8da5c829bea9.png # 夜晚
 
 # 自定义
-# cause:
-#   tip: 心路历程
-#   title: 为什么建站？
-#   content:
-#     <br>创建这个站的时候，想要就是能够有一个自己能够<b>积累知识、积累兴趣</b>的地方。和他人分享，会让这些成为积累和沉淀。如果能够帮助到更多的人，帮助更多人解决问题，那一定是非常棒的事情。
-#     <br>
-#     与大多数垂直类的技术博客不同，这里的种类会非常的繁杂，有<b>技能的教程干货</b>、有<b>生活上的吐槽和妙招</b>、有<b>话题上的思考和想法</b>。一般我研究什么、发现了什么都会分享在这里。
-#     <br>
-#     这些就是创造这个小站的本意，<b>也是我分享生活的方式</b>。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。
-#     <br>
+cause:
+  tip: 
+  title: 关于本站
+  content:
+      <h2>本网站采用多线路并行部署，所有线路均支持HTTPS协议</h2>
+      <h3><b>主域名</b>：<a href="https://dearheaven.cn">dearheaven.cn</a></h3>
+      <h3>解析至Vercel，Vercel有全球的泛播节点，兼具全球CDN功能，国内访问速度较快</h3>
+      <h3><b>备用域名1</b>：<a href="https://cloudflare.dearheaven.cn">cloudflare.dearheaven.cn</a></h3>
+      <h3>解析至Cloudflare，Cloudflare也具有全球泛播节点，其为一家位于美国的跨国科技企业，总部位于旧金山，国内速度一般</h3>
+      <h3><b>备用域名2</b>：<a href="https://netlify.dearheaven.cn">netlify.dearheaven.cn</a></h3>
+      <h3>解析至Netlify，一个现代网站自动化系统，国内速度尚可</h3>
+    # <br>创建这个站的时候，想要就是能够有一个自己能够<b>积累知识、积累兴趣</b>的地方。和他人分享，会让这些成为积累和沉淀。如果能够帮助到更多的人，帮助更多人解决问题，那一定是非常棒的事情。
+    # <br>
+    # 与大多数垂直类的技术博客不同，这里的种类会非常的繁杂，有<b>技能的教程干货</b>、有<b>生活上的吐槽和妙招</b>、有<b>话题上的思考和想法</b>。一般我研究什么、发现了什么都会分享在这里。
+    # <br>
+    # 这些就是创造这个小站的本意，<b>也是我分享生活的方式</b>。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。
+    # <br>
 
 # # 十年之约
 # tenyear:
