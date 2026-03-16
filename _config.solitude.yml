@@ -514,7 +514,7 @@ rightside:
 footer:
   # 社交图标
   information:
-    author: https://pic-bed.dearheaven.cn/img/avator.webp # img url / false
+    author: /img/avator.webp # img url / false
     left:
       Github: https://github.com/qian-alt || fab fa-github # 名称: 链接 || 图标
       # Mail: mailto:o@everfu.org || far fa-envelope
